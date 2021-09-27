@@ -14,6 +14,8 @@ WARNING:
 
 -->
 
+**Note:** this is the "per-architecture" repository for the `arm64v8` builds of [the `alt` official image](https://hub.docker.com/_/alt) -- for more information, see ["Architectures other than amd64?" in the official images documentation](https://github.com/docker-library/official-images#architectures-other-than-amd64) and ["An image's source changed in Git, now what?" in the official images FAQ](https://github.com/docker-library/faq#an-images-source-changed-in-git-now-what).
+
 # Quick reference
 
 -	**Maintained by**:  
@@ -24,10 +26,11 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`p10`, `latest`](https://github.com/alt-cloud/docker-brew-alt/blob/55d97400cba91761cc54c90a3317b27fa28681b2/x86_64/Dockerfile)
--	[`p9`](https://github.com/alt-cloud/docker-brew-alt/blob/166d16ccf0377009b389b037064121da9062bd6b/x86_64/Dockerfile)
--	[`p8`](https://github.com/alt-cloud/docker-brew-alt/blob/0455bb56cfb875deb95a74042f1f37c0428fe8ae/x86_64/Dockerfile)
--	[`sisyphus`](https://github.com/alt-cloud/docker-brew-alt/blob/460c41e7d69d1bebcff1a655ae7df9b07b493132/x86_64/Dockerfile)
+-	[`p10`, `latest`](https://github.com/alt-cloud/docker-brew-alt/blob/55d97400cba91761cc54c90a3317b27fa28681b2/aarch64/Dockerfile)
+-	[`p9`](https://github.com/alt-cloud/docker-brew-alt/blob/166d16ccf0377009b389b037064121da9062bd6b/aarch64/Dockerfile)
+-	[`sisyphus`](https://github.com/alt-cloud/docker-brew-alt/blob/460c41e7d69d1bebcff1a655ae7df9b07b493132/aarch64/Dockerfile)
+
+[![arm64v8/alt build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/arm64v8/job/alt.svg?label=arm64v8/alt%20%20build%20job)](https://doi-janky.infosiftr.net/job/multiarch/job/arm64v8/job/alt/)
 
 # Quick reference (cont.)
 
@@ -72,7 +75,7 @@ As said above, Sisyphus is a frequently updated repository mainly designed for d
 
 # About this image
 
-The `alt:latest` tag will always point the latest stable release (which is, at the time of this writing, `alt:p9`).
+The `arm64v8/alt:latest` tag will always point the latest stable release (which is, at the time of this writing, `arm64v8/alt:p9`).
 
 ## How It's Made
 
